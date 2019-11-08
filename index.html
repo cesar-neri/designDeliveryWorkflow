@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </head>
+  <body>
+
+<span class="uk-text-large">Project Work Flow - <span class="uk-text-bold">Design Delivery</span></span>
+
+<div class="right enneadLogo">
+<img src="assets/ennead_gray.png"></div>
+
+
+    <div class="spacer"></div>
+<div class="uk-flex">
+   <div class="uk-card uk-card-hover uk-card-default uk-card-body uk-margin-left uk-text-bold firstChild uk-inline" tabindex="0" uk-toggle="target:.initiationPoints, .initArrow; animation: uk-animation-fade;">Initiation<br>
+          <span uk-icon="chevron-down" class="uk-position-bottom-center bottomIcon faded initArrow"></span>
+          <span uk-icon="chevron-up" class="uk-position-bottom-center bottomIcon faded initArrow" hidden></span></div>
+   <div class="uk-card uk-card-hover uk-card-default uk-card-body uk-margin-left uk-text-bold" uk-toggle="target: .programmingPoints, .programmingArrow; animation: uk-animation-fade">Programming
+     <span uk-icon="chevron-down" class="uk-position-bottom-center bottomIcon faded programmingArrow"></span>
+     <span uk-icon="chevron-up" class="uk-position-bottom-center bottomIcon faded programmingArrow" hidden></span></div>
+   <div class="uk-card uk-card-hover uk-card-default uk-card-body uk-margin-left uk-text-bold" uk-toggle="target: .conceptPoints, .conceptArrow; animation: uk-animation-fade">Concept
+   <span uk-icon="chevron-down" class="uk-position-bottom-center bottomIcon faded conceptArrow"></span>
+   <span uk-icon="chevron-up" class="uk-position-bottom-center bottomIcon faded conceptArrow" hidden></span></div>
+   <div class="uk-card uk-card-hover uk-card-default uk-card-body uk-margin-left uk-text-bold" uk-toggle="target: .sdPoints, .sdArrow; animation: uk-animation-fade">SD
+   <span uk-icon="chevron-down" class="uk-position-bottom-center bottomIcon faded sdArrow"></span>
+   <span uk-icon="chevron-up" class="uk-position-bottom-center bottomIcon faded sdArrow" hidden></span></div>
+   <div class="uk-card uk-card-hover uk-card-default uk-card-body uk-margin-left uk-text-bold" uk-toggle="target: .ddPoints, .ddArrow; animation: uk-animation-fade">DD
+   <span uk-icon="chevron-down" class="uk-position-bottom-center bottomIcon faded ddArrow"></span>
+   <span uk-icon="chevron-up" class="uk-position-bottom-center bottomIcon faded ddArrow" hidden></span></div>
+   <div class="uk-card uk-card-hover uk-card-default uk-card-body uk-margin-left uk-text-bold" uk-toggle="target: .cdPoints, .cdArrow; animation: uk-animation-fade">CD
+   <span uk-icon="chevron-down" class="uk-position-bottom-center bottomIcon faded cdArrow"></span>
+   <span uk-icon="chevron-up" class="uk-position-bottom-center bottomIcon faded cdArrow" hidden></span></div>
+   <div class="uk-card uk-card-hover uk-card-default uk-card-body uk-margin-left uk-text-bold" uk-toggle="target: .caPoints, .caArrow; animation: uk-animation-fade">CA
+     <span uk-icon="chevron-down" class="uk-position-bottom-center bottomIcon faded caArrow"></span>
+     <span uk-icon="chevron-up" class="uk-position-bottom-center bottomIcon faded caArrow" hidden></span></div>
+</div>
+
+    <ul uk-accordion="multiple: true" class="list" id="list1">
+        <li>
+            <a class="uk-accordion-title uk-text-bold green" href="#" id="goals" uk-toggle="target: #goalsSubheader, #goalsPoints; animation: uk-animation-fade"><span class="uk-text-normal" id="goalsSubheader">Phase </span>Goals
+
+              <div class="flexContainer fullColumns noBorder phasePoints" id="goalsPoints">
+                 <div>
+                   <ul class="initiationPoints" hidden>
+                     <li>Define Approach</li></ul>
+                 </div>
+                 <div>
+                   <ul class="programmingPoints" hidden>
+                     <li>Define Project</li></ul>
+                 </div>
+                 <div>
+                   <ul class="conceptPoints" hidden>
+                     <li>Define Design</li>
+                     <li>Communicate Concept</li>
+                     <li>Confirm Scope</li>
+                     <li>Responsibilities</li>
+                   </ul>
+                 </div>
+                 <div>
+                   <ul class="sdPoints" hidden>
+                     <li>Confirm Design</li>
+                     <li>Define Scope</li>
+                     <li>Verify Budget / Cost</li>
+                     <li>Confirm Schedule</li>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="ddPoints" hidden>
+                     <li>Develop and Coordinate Scope</li></ul>
+                 </div>
+                 <div>
+                   <ul class="cdPoints" hidden>
+                     <li>Detail Scope</li></ul>
+                 </div>
+                 <div>
+                   <ul class="caPoints" hidden>
+                     <li>Execute Intent</li></ul>
+                 </div>
+              </div>
+
+            </a>
+
+            <div class="uk-accordion-content">
+              <div class="flexContainer fullColumns">
+                <div class='left'><p class="uk-text-bold">Define Approach</p></div>
+                <div class='left'><p class="uk-text-bold">Define Project</p></div>
+                <div class='left'>
+
+                      <p uk-margin class="uk-text-bold">Define Design</p>
+                      <p class="faded">
+                      Exploration of Options<br>
+                      Design Priorities<br>
+                      Concept Statement</p>
+                      <p class="uk-text-bold">Communicate</p>
+                      <p class="uk-text-bold">Concept</p>
+                      <p class="uk-text-bold">Confirm Scope</p>
+                      <p class="uk-text-bold">Responsibilities</p></div>
+
+                 <div class='left'>
+
+                   <p class="uk-text-bold">Confirm Design</p>
+                   <p class="faded">Synthesize design intent<br>
+                   Confirm design criteria</p>
+                   <p class="uk-text-bold">Define Scope</p>
+                   <p class="faded">Basis of design</p>
+                   <p class="uk-text-bold">Verify Budget / Cost</p>
+                   <p class="uk-text-bold">Confirm Schedule</p></div>
+
+                 <div class='left'>
+                 <p uk-margin class="uk-text-bold">Develop and Coordinate Scope</p>
+                 <p class="faded">
+                 Refine per Client Review and Comments<br>
+                 Adjust per Cost Refinement</p></div>
+                 <div class='left'>
+                   <p uk-margin class="uk-text-bold">Detail Scope</p>
+                 </div>
+                 <div class='left'>
+                   <p uk-margin class="uk-text-bold">Execute Intent</p>
+                 </div>
+            </div>
+        </li>
+        <li>
+            <a class="uk-accordion-title uk-text-bold orange" href="#" id="planning" uk-toggle="target: #planningSubheader, #planningPoints; animation: uk-animation-fade">Planning<span class="uk-text-normal" id="planningSubheader"> the Work</span>
+              <div class="flexContainer fullColumns noBorder phasePoints" id="planningPoints">
+                 <div>
+                   <ul class="initiationPoints" hidden>
+                     <li>Leadership Meeting</li></ul>
+                 </div>
+                 <div>
+                   <ul class="programmingPoints" hidden>
+                     <li>???</li></ul>
+                 </div>
+                 <div>
+                   <ul class="conceptPoints" hidden>
+                     <li>Scope Delineation Responsibilites</li>
+                     <li>Assign BIM Lead</li></ul>
+                 </div>
+                 <div>
+                   <ul class="sdPoints" hidden>
+                     <li>Project Schedule Client Approval</li>
+                     <li>Establish QAQC Plan</li></ul>
+                 </div>
+                 <div>
+                   <ul class="ddPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="cdPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="caPoints" hidden>
+                     <li>Set Up Phase Work Plan</li>
+                     <li>CA Project Start-Up</li>
+                     </ul>
+                 </div>
+              </div>
+            </a>
+            <div class="uk-accordion-content">
+
+              <div class="flexContainer fullColumns">
+                 <div class="grey">
+                <p class="uk-text-bold p-orange">Project Kick-Off</p>
+                <p class="uk-text-bold">Leadership Meeting:</p>
+                <p>Align approach with fee.<br>Update staffing plan.<br>Schedule and Labor</p>
+                <ul>
+                  <li>Staffing</li>
+                  <li>Deliverables</li>
+                  <li>Schedule</li>
+                  <li>Work Plan</li>
+                  <li>Design Approach</li>
+                  <li>Opportunities / Risks</li>
+                  <li>Contingencies</li></ul>
+
+                  <br><br>
+
+                  <p>Establish Team</p>
+                  <ul>
+                    <li>Communication</li>
+                    <li>Digital Tool Workflow</li></ul>
+
+
+
+                 </div>
+                 <div>
+                   <div id="planningBlock1">
+                  <div class="uk-text-bold p-orange">Phase Initiation</div>
+                  <div class="hBar hColumn orange">	&nbsp;</div>
+                  <p class="uk-text-bold">Set up</p>
+                  <ul>
+                    <li>Phase Work Plan</li>
+                    <li>Phase Schedule</li>
+                    <li>Develop effort based on deliverables</li>
+                    <li>Update Master Schedule</li></ul><br>
+                 </div>
+
+                 <div id="planningBlock2">
+                <div class="uk-text-bold p-orange">Conduct Semimonthly Leadership Meeting</div>
+                <div class="hBar orange" id="hBar1">	&nbsp;</div>
+                <p class="uk-text-bold">Regular Reporting</p>
+                <ul>
+                  <li>Executive Summary</li>
+                  <li>Project Status Summary</li>
+                  <li>Phase Work Plan Updates</li>
+                  <li>Status of Delivery (% complete)</li></ul><br>
+               </div>
+
+               <div id="planningBlock3">
+              <div class="uk-text-bold p-orange">Prepare Weekly Work Plans</div>
+              <div class="hBar orange" id="hBar2">	&nbsp;</div>
+              <ul>
+                <li>Conduct weekly team meetings</li></ul><br><br>
+             </div>
+
+             <div id="planningBlock4">
+            <div class="uk-text-bold p-orange">Phase Kick-Off</div>
+            <div class="hBar hColumn orange">	&nbsp;</div>
+            <ul>
+              <li>Team Apporoach</li>
+              <li>Review</li>
+              <li>Phase Work Plan</li>
+              <li>Deliverables</li>
+              <li>Schedule</li>
+              <li>Milestone Decisons</li>
+              <li>Tools and Standards</li>
+            </ul>
+           </div>
+
+
+                  </div>
+                 <div>
+                   <div class="uk-text-bold p-orange">Scope Delineation Responsibilities</div>
+                   <div class="uk-text-bold p-orange big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+                   <div id="calcPlanningBlock1"></div>
+                   <div class="uk-text-bold p-orange">Assign BIM Lead</div>
+                   <div class="hBar hDot orange">	&nbsp;</div>
+                 </div>
+
+                 <div>
+                   <div class="uk-text-bold p-orange aRight"><span class="underline">Client Approval:</span><br> Project Schedule</div>
+                   <div class="uk-text-bold p-orange right big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div><br><br>
+
+                   <div id="calcPlanningBlock2"></div>
+                   <div class="uk-text-bold p-orange">Establish QA/QC Plan</div>
+                   <div class="hBar hDot orange">	&nbsp;</div>
+                 </div>
+
+                 <div><br></div>
+                 <div><br></div>
+                 <div>
+                   <div>
+                  <div class="uk-text-bold p-orange">Phase Initiation</div>
+                  <div class="hBar hColumn orange">	&nbsp;</div>
+                  <p class="uk-text-bold">Set up</p>
+                  <ul>
+                    <li>Phase Work Plan</li>
+                    <li>Phase Overview Schedule</li>
+                    <li>Develop effort based on primary activites</li></ul><br>
+                 </div>
+
+                <div id="calcPlanningBlock3"></div>
+
+                 <div>
+                <div class="uk-text-bold p-orange">CA Project Start-Up</div>
+                <div class="hBar hColumn orange">	&nbsp;</div>
+                <p class="uk-text-bold">Procedure Check List</p>
+                <p class="uk-text-bold">Set up</p>
+                <ul>
+                  <li>Team</li>
+                  <li>CA Document Folders</li>
+                  <li>Conformed CD Set</li>
+                  <li>Logs</li>
+                  <li>Submission Scheduled</li>
+                  </ul><br>
+               </div>
+
+
+                 </div>
+            </div>
+
+
+
+            </div>
+        </li>
+        <li>
+            <a class="uk-accordion-title uk-text-bold red" href="#" id="design" uk-toggle="target: #designSubheader, #designPoints; animation: uk-animation-fade">Design<span class="uk-text-normal" id="designSubheader"> Milestones</span>
+              <div class="flexContainer designColumns noBorder phasePoints" id="designPoints">
+                 <div>
+                   <ul class="initiationPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="programmingPoints" hidden>
+                     <li>Identifty Parameters</li></ul>
+                 </div>
+                 <div>
+                   <ul class="conceptPoints" hidden>
+                     <li>Research, Discovery, and Exploration</li>
+                     <li>Develop Design Approach and Concept Statement</li>
+                     <li>Align Concept with Budget</li></ul>
+                 </div>
+                 <div>
+                   <ul class="sdPoints" hidden>
+                     <li>Cost Modeling and Estimating</li>
+                     <li>Basis of Design</li></ul>
+                 </div>
+                 <div>
+                   <ul class="ddPoints" hidden>
+                     </ul>
+                 </div>
+              </div>
+            </a>
+
+
+            <div class="uk-accordion-content">
+
+              <div class="flexContainer fullColumns">
+                <div></div>
+
+                 <div>
+                   <div>
+                  <div class="uk-text-bold p-red">Identify Parameters</div>
+                  <div class="hBar hColumn red">	&nbsp;</div>
+                  <p class="uk-text-bold">Analyze / Inform</p>
+                  <ul>
+                    <li>Visioning</li>
+                    <li>Program and verification</li>
+                    <li>Existing conditions</li>
+                    <li>Technical requirements</li>
+                    <li>Regulatory requirements</li>
+                    <li>Research goals</li>
+                    <li>Sustainability goals</li>
+                    <li>Owner design guidelines</li>
+                  </ul><br>
+                 </div>
+
+
+                  </div>
+                 <div>
+                   <div class="uk-text-bold p-red">Research, Discovery, and Exploration</div>
+                   <div class="hBar red" id="hBar3">	&nbsp;</div><br><br>
+
+                   <div class="uk-text-bold p-red">Develop Design Approach and Concept Statement</div>
+                   <div class="hBar hDot red">	&nbsp;</div><br><br>
+
+                   <div class="uk-text-bold p-red">Align Concept with Budget</div>
+                   <div class="hBar red" id="hBar4">	&nbsp;</div><br><br>
+
+                   <div class="uk-text-bold p-red aRight"><span class="underline">Client Approval:</span><br> Design Concept</div>
+                   <div class="uk-text-bold p-red right big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+
+                 </div>
+                 <div>
+                   <div class="spacer" id="spacer1"></div>
+                   <div class="uk-text-bold p-red">Cost Modeling and Estimating</div>
+                   <div class="hBar hDot red">	&nbsp;</div><br><br>
+
+                   <div class="uk-text-bold p-red">Basis of Design</div>
+                   <div class="hBar hDot red">	&nbsp;</div><br><br>
+
+                   <div class="uk-text-bold p-red aRight"><span class="underline">Client Approval:</span><br>Basis of Design<br>Cost Estimate<br>Design Criteria</div>
+                   <div class="uk-text-bold p-red right big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+
+                 </div>
+                 <div>
+                   <div class="spacer" id="spacer1"></div>
+
+                   <div class="uk-text-bold p-red relative middle"><span class="underline">Client Approval:</span><br>Micro-program</div>
+                   <div class="uk-text-bold p-red relative middle big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div><br><br>
+
+                   <div class="uk-text-bold p-red aRight"><span class="underline">Client Approval:</span><br>Interior Material Palette</div>
+                   <div class="uk-text-bold p-red right big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+                 </div>
+                 <div class="opacityZero"><br></div>
+                 <div class="opacityZero"></div>
+            </div>
+
+
+            </div>
+        </li>
+        <li>
+            <a class="uk-accordion-title uk-text-bold blue" href="#" id="deliverables" uk-toggle="target: #deliverablesSubheader, #deliverablesPoints; animation: uk-animation-fade"><span class="uk-text-normal" id="deliverablesSubheader">Define </span>Deliverables
+
+              <div class="flexContainer deliverablesColumns noBorder phasePoints" id="deliverablesPoints">
+                 <div>
+                   <ul class="initiationPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="programmingPoints" hidden>
+                     <li>Project Data Sheet</li>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="conceptPoints" hidden>
+                     <li>Concept Statement</li>
+                     <li>Concept Report</li></ul>
+                 </div>
+                 <div>
+                   <ul class="sdPoints" hidden>
+                     <li>SD Report</li></ul>
+                 </div>
+                 <div>
+                   <ul class="ddPoints" hidden>
+                     <li>DD Delivery</li></ul>
+                 </div>
+                 <div>
+                   <ul class="cdPoints" hidden>
+                     <li>CD Delivery</li></ul>
+                 </div>
+
+
+              </div>
+
+            </a>
+
+            <div class="uk-accordion-content">
+
+              <div class="flexContainer fullColumns">
+
+              <div>
+               <p class="uk-text-bold">
+                 Program Verification<br>
+                 Report<br>
+                 Presentations
+               </p>
+
+              </div>
+
+                 <div>
+                   <div>
+                    <div>
+                  <div class="uk-text-bold p-blue">Design Storyboards</div><br>
+
+                  <div id="calcDeliverablesBlock1"></div><br>
+
+                  <div class="uk-text-bold p-blue">Design Deliverables</div>
+
+                  <div id="spacer10"></div>
+
+                  <div class="uk-text-bold p-blue">Technical Storyboards</div><br><br>
+
+                  <div id="calcDeliverablesBlock3"></div>
+
+                  <div class="uk-text-bold p-blue">Technical Deliverables</div><br><br></div>
+
+                  <div id="calcDeliverablesBlock7"></div>
+
+                  <div class="uk-text-bold p-blue">Coordination Deliverables (Team Sharing of Info)</div>
+
+                  <br><div class="uk-text-bold p-blue aRight">Project Data Sheet</div>
+                  <div class="hBar hColumn blue">	&nbsp;</div>
+                  <ul class="aRight">
+                    <li>Marketing</li>
+                    <li>Design Performance</li></ul><br>
+
+
+
+                </div></div>
+                 <div>
+                   <div id="deliverablesBlock1">
+                   <div class="uk-text-bold p-blue">Phase Initiation</div>
+                   <div class="hBar hColumn blue">	&nbsp;</div>
+                   <p class="uk-text-bold">Set up</p>
+                   <ul>
+                     <li>Initial Concept Statement</li>
+                     <li>Concept Report Cartoon</li></ul><br>
+
+                   <div class="uk-text-bold p-blue">Concept Statement</div>
+                   <div class="hBar hDot blue">	&nbsp;</div><br><br>
+                   <div class="uk-text-bold p-blue aRight">Concept Report</div>
+                   <div class="hBar hDot blue right">	&nbsp;</div></div>
+
+                 </div>
+
+                 <div>
+                 <div id="deliverablesBlock4">
+                 <div id="deliverablesBlock3">
+                 <p class="uk-text-bold">Report</p>
+                 <ul>
+                   <li>TOC</li></ul>
+                   <div id="calcDeliverablesBlock2"></div><br>
+                   <div class="uk-text-bold p-blue aRight">SD Report</div>
+                   <div class="hBar hDot blue right">	&nbsp;</div></div>
+
+                  <div id="spacer12"></div>
+                  <div id="deliverablesBlock2">
+                   <div class="uk-text-bold p-blue">Phase Initiation</div>
+                   <div class="hBar hColumn blue">	&nbsp;</div>
+                   <p class="uk-text-bold">Set up</p>
+                   <ul>
+                     <li>Navigation Map</li>
+                     <li>Cartoon Setup</li></ul><br>
+
+                   <div class="uk-text-bold p-blue">Maintain Check Set</div>
+                   <div class="hBar hColumn blue" id="hBar5">	&nbsp;</div><br><br>
+
+                   <div class="uk-text-bold p-blue">Building Data Forms</div>
+                   <div class="hBar hDot blue">	&nbsp;</div></div><br><br>
+
+                 </div>
+
+                 </div>
+                 <div>
+
+                   <div id="calcDeliverablesBlock6"></div>
+                   <p class="uk-text-bold">Report</p>
+                   <ul>
+                     <li>Basis of Design</li>
+                     <li>Spec PPD</li>
+                     <li>Regulatory compliance</li>
+                     <li>Performance criteria</li>
+                     <li>Schedule</li>
+                     <li>Cost</li>
+                   </ul><br>
+
+                   <div id="spacer11"></div>
+
+
+                   <div class="uk-text-bold p-blue">Product Data Forms</div>
+                   <div class="hBar hDot blue">	&nbsp;</div><br><br>
+
+                  <br><br><br>
+
+                  <div id="deliverablesBlock5">
+                   <div class="uk-text-bold p-blue aRight">DD</div>
+                   <div class="hBar hDot blue right">	&nbsp;</div><br>
+                   <ul class="aRight">
+                     <li>DWG Set</li>
+                     <li>Specs Draft Full Length</li></ul></div>
+
+                 </div>
+                 <div id="deliverablesCDColumn">
+                   <div id="cdItem">
+                   <div class="uk-text-bold p-blue aRight">CD</div>
+                   <div class="hBar hDot blue right">	&nbsp;</div><br><br>
+                 </div>
+
+
+                 </div>
+                 <div class="opacityZero"></div>
+            </div>
+
+
+            </div>
+            </li>
+        <li>
+            <a class="uk-accordion-title uk-text-bold purple" href="#" id="computation" uk-toggle="target: #computationSubheader, #computationalPoints; animation: uk-animation-fade">Computation<span id="computationSubheader">al </span> <span class="uk-text-normal">Workflows</span></span>
+
+              <div class="flexContainer fullColumns noBorder phasePoints" id="computationalPoints">
+                 <div>
+                   <ul class="initiationPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="programmingPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="conceptPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="sdPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="ddPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="cdPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="caPoints" hidden>
+                     </ul>
+                 </div>
+
+
+              </div>
+
+            </a>
+
+
+            <div class="uk-accordion-content">
+
+              <div class="flexContainer fullColumns">
+
+              <div>
+
+              </div>
+              <div>
+                <div id="compBlock1">
+                <div id='reference1'>
+                <div class="p-purple"><span class='uk-text-bold'>Massing</span> (Rhino and Grasshopper)</div>
+                <div class="hBar hColumn purple" id="hBar6">	&nbsp;</div><br></div>
+                <div class="uk-text-bold p-purple">Rhino Massing / Site Analysis</div>
+                <div class="hBar hDot purple">	&nbsp;</div><br><br></div>
+
+                <div id="calcCompBlock1">&nbsp;</div>
+                <div id="compBlock3">
+                <div id="compBlock4">
+                <div class="p-purple"><span class='uk-text-bold'>Program Analysis</span> (Excel and Revit)</div>
+                <div class="hBar hColumn purple" id="hBar7">	&nbsp;</div><br></div>
+                <div class="uk-text-bold p-purple">Room Data Sheets</div>
+                <div class="hBar hDot purple">	&nbsp;</div><br><br></div>
+                <div id="calcCompBlock4">&nbsp;</div><br><br>
+                <div id="compBlock6">
+                <div class="p-purple"><span class='uk-text-bold'>Performance Analysis</span></div>
+                <div class="hBar hColumn purple" id="hBar8">	&nbsp;</div><br></div>
+                <div class="uk-text-bold p-purple">Climate Analysis</div>
+                <div class="hBar hDot purple">	&nbsp;</div><br><br>
+             </div>
+             <div>
+               <div id="spacer2"></div>
+               <div class="uk-text-bold p-purple">SD Visualization</div>
+               <div class="hBar hDot purple">	&nbsp;</div>
+               <br><br>
+              <div id="calcCompBlock2">&nbsp;</div>
+               <div class="uk-text-bold p-purple aRight">Room Data Sheets</div>
+               <div class="hBar hDot purple right">	&nbsp;</div>
+               <div id="calcCompBlock5">&nbsp;</div><br>
+               <div class="uk-text-bold p-purple">Performance Analysis</div>
+               <div class="hBar hDot purple">	&nbsp;</div>
+             </div>
+             <div>
+               <div id="spacer2"></div>
+               <div class="uk-text-bold p-purple">Panelization</div>
+               <div class="hBar hDot purple">	&nbsp;</div><br><br>
+               <div id="compBlock2"><br>
+               <div class="p-purple"><span class='uk-text-bold'>Documentation</span> (Revit)</div>
+               <div class="hBar hColumn purple" id="hBar9">	&nbsp;</div><br>
+               <div class="uk-text-bold p-purple">Model from Template</div>
+               <div class="hBar hDot purple">	&nbsp;</div><br>
+               <div class="uk-text-bold p-purple">Shared Coordinates</div>
+               <div class="hBar hDot purple">	&nbsp;</div><br>
+               <div class="uk-text-bold p-purple">Navigation Set Up</div>
+               <div class="hBar hDot purple">	&nbsp;</div><br><br></div>
+               <div id="calcCompBlock3">&nbsp;</div>
+               <div id="compBlock5">
+               <div class="p-purple aRight"><span class='uk-text-bold'>Keynoting</span> (Excel and Revit)</div>
+               <div class="hBar hColumn purple aRight" id="hBar10">	&nbsp;</div><br>
+               <div class="uk-text-bold p-purple aRight">Initial Keynotes</div>
+               <div class="hBar hDot purple right">	&nbsp;</div><br></div>
+             </div>
+             <div>
+             </div>
+             <div>
+             </div>
+             <div>
+             </div>
+            </div>
+
+
+            </div>
+        </li>
+
+        <li>
+            <a class="uk-accordion-title uk-text-bold yellow" href="#" id="resourceCollaboration" uk-toggle="target: #resourcePoints; animation: uk-animation-fade">Resource Collaboration
+              <div class="flexContainer fullColumns noBorder phasePoints" id="resourcePoints">
+                 <div>
+                   <ul class="initiationPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="programmingPoints" hidden>
+                     <li>Share Information with Marketing</li>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="conceptPoints" hidden>
+                     </ul>
+                 </div>
+                 <div>
+                   <ul class="sdPoints" hidden>
+                     <li>BIM Kick-Off</li>
+                     <li>Design Team Kick-Off</li>
+                     <li>QC Meeting</li></ul>
+                 </div>
+                 <div>
+                   <ul class="ddPoints" hidden>
+                     <li>BIM QAQC</li>
+                     <li>QC Submission</li></ul>
+                 </div>
+                 <div>
+                   <ul class="cdPoints" hidden>
+                     <li>QC Review</li></ul>
+                 </div>
+                 <div>
+                   <ul class="caPoints" hidden>
+                     <li>PR</li></ul>
+                 </div>
+
+
+              </div>
+            </a>
+            <div class="uk-accordion-content">
+
+              <div class="flexContainer fullColumns">
+                <div class="grey">
+               <p class="uk-text-bold p-yellow">Project Kick-Off</p>
+               <p class="uk-text-bold">Project Team/Marketing Meeting</p>
+               <p>Notify Marketing of:</p>
+               <ul>
+                 <li>Project Number</li>
+                 <li>Project Narrative</li>
+                 <li>Project Data</li>
+                 <li>Client Intentions</li>
+                 <li>Unqiue Features / Opportunities</li>
+                 <li>Establish EA Point Person(s)</li>
+                 <li>Identify and Introduce Keri to Client Comm Contact</li>
+                 <li>ID NDA/Confidentiality</li>
+                 <li>Define Opportunity for Pre/Post-Occupancy Survey</li>
+                 <li>Define ennead.com Plan</li></ul>
+                 <br><br>
+              </div>
+                 <div>
+                   <p class="uk-text-bold p-yellow underline">Applied Computing</p>
+
+                  <div id="calcResourceBlock1"></div>
+
+                   <p class="uk-text-bold p-yellow underline">Design Performance</p>
+                   <div id="spacer3"></div>
+                   <p class="uk-text-bold p-yellow underline">Technical</p>
+
+                   <div id="calcResourceBlock3"></div>
+
+                   <p class="uk-text-bold p-yellow underline">Interiors</p>
+
+                   <div class="hBar hDot yellow">	&nbsp;</div>
+                   <p>Room Data Sheets</p>
+                   <div class="hBar hDot yellow">	&nbsp;</div>
+                   <p>Planning Standards</p>
+                   <div class="hBar hDot yellow">	&nbsp;</div>
+                   <p>Collaborate on developing program</p>
+
+                   <div id="spacer5"></div>
+
+                   <p class="uk-text-bold p-yellow underline">Marketing</p>
+                   <p class="uk-text-bold">Phase End:</p>
+                   <p class="underline">Share Information</p>
+                   <ul>
+                     <li>Visuals</li>
+                     <li>Narrative</li>
+                     <li>Team / Consultant Info</li>
+                     <li>Project Data</li>
+                   </ul><br><br><br>
+                 </div>
+                 <div>
+                  <div id="calcResourceBlock2"></div><br>
+                   <div class="uk-text-bold p-yellow">Drawing Standards</div>
+                   <div class="hBar hColumn yellow aRight" id="hBar10">	&nbsp;</div><br>
+
+                 </div>
+                 <div>
+                 <div id="resourceBlock2">
+                 <div id="resourceBlock1">
+               <div class="hBar hDot yellow">	&nbsp;</div>
+                   <p class="uk-text-bold">Set up</p>
+                   <ul>
+                     <li>BIM Execution Plan</li></ul><br>
+
+                     <div class="uk-text-bold p-yellow">BIM Kick-Off</div>
+                     <div class="uk-text-bold p-yellow big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+                         <p class="uk-text-bold">Identify / Review:</p>
+                         <ul>
+                           <li>Technology Goals</li>
+                           <li>BIM EP</li>
+                           <li>Digital Standards</li>
+                           <li>Team Training Needs</li>
+                         </ul><br>
+                         <div class="uk-text-bold p-yellow aRight">Design Team Kick-Off</div>
+                         <div class="uk-text-bold p-yellow right big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+                         <br><p class="aRight faded">Including Consultants</p>
+                         <p class="uk-text-bold aRight">Identify / Review:</p>
+                         <ul class="aRight">
+                           <li>Project Milestones</li>
+                           <li>Expectations for Development</li>
+                           <li>Information Transfer / Sharing</li>
+                           <li>Model Exchange Protocol</li></ul> </div><br>
+
+                           <div id="spacer3"></div><div id="spacer3"></div>
+
+                           <div id="resourceBlock3">
+                           <div class="uk-text-bold p-yellow">QC Meeting</div>
+                           <div class="uk-text-bold p-yellow big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+                                 <p>Check extent of drawing and navigation layout.</p><br>
+
+                          <div class="p-yellow uk-text-bold">Cartoon and Check Set Support</div>
+                          <div class="hBar hColumn yellow" id="hBar11">&nbsp;</div><br>
+                       </div>
+
+                        <div id="spacer6"></div>
+
+                        </div>
+
+                         <div class="hBar hDot yellow">	&nbsp;</div>
+                              <p>Assign Interior Designer</p><br>
+
+                         <div class="hBar hDot yellow">	&nbsp;</div>
+                              <p>Finalize Micro-Program</p><br>
+
+                         <div class="hBar hDot yellow">	&nbsp;</div>
+                              <p class="uk-text-bold">Determine:</p>
+                         <ul>
+                             <li>Extent of material types level of fit and finish.</li></ul><br>
+                 </div>
+                 <div>
+                         <div class="uk-text-bold p-yellow">Phase Kick-Off</div>
+                         <div class="uk-text-bold p-yellow big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div><br>
+                         <p>Part of overall team kickoff.</p>
+                         <p class="uk-text-bold">Add:</p>
+                         <ul>
+                           <li>BIM QAQC</li>
+                         </ul><br>
+
+                         <div id="calcResourceBlock4"></div>
+
+                         <div class="uk-text-bold p-yellow">QC Submission</div>
+                         <div class="uk-text-bold p-yellow big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+                               <p>Check extent of scope info to draw.</p><br>
+
+                        <div id="spacer7"></div>
+
+                        <div class="hBar hDot yellow">	&nbsp;</div>
+                                <p>Client Meeting to Agree on Micro-Program</p><br>
+
+                        <div class="hBar hDot yellow">	&nbsp;</div>
+                        <p class="uk-text-bold">Develop:</p>
+                   <ul>
+                       <li>Interior meterial palette overall look and feel.</li></ul><br>
+
+
+                 </div>
+                 <div>
+                   <div id="calcResourceBlock5"></div>
+                   <div class="uk-text-bold p-yellow aRight">QC Review</div>
+                   <div class="uk-text-bold p-yellow right big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div><br>
+                   <p class="aRight">Check technical proficiency</p><br>
+
+                   <div id="spacer8"></div>
+
+                   <div class="uk-text-bold p-yellow big tooltip">*<p class="tooltiptext">Define Leadership Roles / Responsibilities</p></div>
+                         <br><span class="uk-text-bold p-yellow underline">Client Approval:</span>
+                         <p>Check extent of scope info to draw.</p><br>
+
+                 </div>
+                 <div id="resourceCAColumn">
+
+                   <div id="calcResourceBlock6"></div><br>
+
+                   <div class="hBar hDot yellow">	&nbsp;</div>
+                           <p>Meeting to review interior details and sequence of work.</p><br>
+
+                  <div id="spacer9"></div>
+
+
+                  <div id="prItem">
+                  <span class="uk-text-bold p-yellow underline">PR</span>
+                  <p>Check-in at construction milestones. Prepare communications content and develop PR plan.</p><br>
+
+
+                  <div class="uk-text-bold p-yellow">Ground Breaking</div>
+                  <div class="hBar hDot yellow">	&nbsp;</div>
+
+                  <div class="uk-text-bold p-yellow relative middle">Topping Off</div>
+                  <div class="hBar hDot yellow relative middle">	&nbsp;</div>
+
+                  <div class="uk-text-bold p-yellow aRight">Grand Opening</div>
+                  <div class="hBar hDot yellow right">&nbsp;</div>
+                </div>
+
+                 </div>
+            </div>
+
+
+            </div>
+        </li>
+
+    </ul>
+
+    <script src="js/sortable.js"></script>
+
+    <script type="text/javascript">
+
+    	new Sortable(document.getElementById('list1'),{
+        animation: 150});
+    </script>
+
+  </body>
+</html>
